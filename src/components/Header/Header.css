@@ -6,11 +6,15 @@
 }
 
 .Header-logo {
-  color: green;
+  color: white;
   font-size: 1.4rem;
   grid-column: 2 / span 2;
   justify-self: center;
   align-self: center;
+}
+
+.Header-logo-h2 > span {
+  color: #333;
 }
 
 .Header-navbar {

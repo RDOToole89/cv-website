@@ -7,7 +7,9 @@ function Header() {
     <div id="home" className="Header">
       <div className="Header-navbar">
         <div class="Header-logo">
-          <h2 class="Header-logo-h2">&lt;RDO/&gt;</h2>
+          <h2 class="Header-logo-h2">
+            &lt;<span>RDO</span>/&gt;
+          </h2>
         </div>
         <img
           className="Header-profile-img"
