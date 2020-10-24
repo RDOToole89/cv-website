@@ -1,0 +1,25 @@
+.Contact {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 3em 0 6em 0;
+  background: #cce7fe;
+}
+
+.Contact-heading {
+  grid-column: 3 / span 2;
+  justify-self: center;
+}
+
+.Contact-form {
+  display: grid;
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 2;
+}
+
+.Contact-form-input {
+  margin-bottom: 1em;
+}
+
+.Contact-form-btn {
+  justify-self: flex-start;
+}
