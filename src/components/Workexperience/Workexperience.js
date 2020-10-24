@@ -5,7 +5,7 @@ function Workexperience() {
   return (
     <section id="Workexp" className="Workexperience">
       <div className="Workexperience-header-wrapper">
-        <i class="icon fas fa-briefcase fa-3x"></i>
+        <i className="icon fas fa-briefcase fa-3x"></i>
         <h1 className="Workexperience-header">Work Experience</h1>
       </div>
       <div className="Workcard">
@@ -18,14 +18,14 @@ function Workexperience() {
         </p>
         <ul className="Workcard-list">
           <li className="WorkCard-item">
-            Multitasking in a high-pressureenvironmentwhile maintainingattention for detail.
+            Multitasking in a high-pressure environment while maintaining attention for detail.
           </li>
           <li className="WorkCard-item">
-            Taking initiative and making fast-paced decisionsin order to produce high-qualityfood to
-            satisfyeach and every guest.
+            Taking initiative and making fast-paced decisions in order to produce qualityfood to
+            satisfy each and every guest.
           </li>
           <li className="WorkCard-item">
-            Full responsibility overthe kitchen, performing orders and maintaining adequate levels
+            Full responsibility over the kitchen, performing orders and maintaining adequate levels
             of stock.
           </li>
           <li className="WorkCard-item">
@@ -38,7 +38,7 @@ function Workexperience() {
       </div>
       <div className="Workcard">
         <h4 className="Workcard-header uppercase">
-          Studyflow, Amsterdam (Augustus 2016- Januari 2017) - Markt entry stratagy analist
+          Studyflow, Amsterdam (Augustus 2016- Januari 2017) - Market entry stratagy analist
         </h4>
         <p className="Workcard-text">
           Company specializing in digitization of the secondary education market in the Netherlands.

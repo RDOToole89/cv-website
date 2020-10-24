@@ -6,8 +6,8 @@ function Header() {
   return (
     <div id="home" className="Header">
       <div className="Header-navbar">
-        <div class="Header-logo">
-          <h2 class="Header-logo-h2">
+        <div className="Header-logo">
+          <h2 className="Header-logo-h2">
             &lt;<span>RDO</span>/&gt;
           </h2>
         </div>
@@ -38,21 +38,21 @@ function Header() {
 
       <div className="Header-title-box">
         <h1 className="Header-title">
-          Hi, I'm Roibin.
+          <span>Hi, I'm Roibin.</span>
           <Typical
             steps={[
               "I",
-              800,
+              1000,
               "I am a developer.",
-              800,
+              1000,
               "I love to code.",
-              800,
+              1000,
               "I solve problems.",
-              800,
+              1000,
               "I am a fast learner.",
-              800,
-              "I am a hard worker.",
-              800,
+              1000,
+              "I am a pleasant colleague.",
+              1000,
             ]}
             loop={Infinity}
             wrapper="p"

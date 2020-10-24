@@ -5,12 +5,12 @@ function Skills() {
   return (
     <section className="Experience">
       <div className="Experience-header-wrapper">
-        <i class="icon Experience-icon fas fa-cog fa-3x"></i>
+        <i className="icon Experience-icon fas fa-cog fa-3x"></i>
         <h1 className="Experience-header">My Skills and Tools</h1>
       </div>
       <p className="Experience-header-text">What I've learned so far...</p>
       <div className="Experience-frontend">
-        <i class="icon Experience-icon fas fa-laptop fa-3x"></i>
+        <i className="icon Experience-icon fas fa-laptop fa-3x"></i>
         <h3>Front-end</h3>
         <ul className="Experience-list">
           <li className="Experience-list-item">HTML5</li>
@@ -22,7 +22,7 @@ function Skills() {
         </ul>
       </div>
       <div className="Experience-backend">
-        <i class="icon Experience-icon fas fa-server fa-3x"></i>
+        <i className="icon Experience-icon fas fa-server fa-3x"></i>
         <h3>Back-end</h3>
         <ul className="Experience-list">
           <li className="Experience-list-item">NodeJS</li>
@@ -34,7 +34,7 @@ function Skills() {
         </ul>
       </div>
       <div className="Experience-tools">
-        <i class="icon Experience-icon fas fa-briefcase fa-3x"></i>
+        <i className="icon Experience-icon fas fa-briefcase fa-3x"></i>
         <h3>Tools</h3>
         <ul className="Experience-list">
           <li className="Experience-list-item">VS Code</li>

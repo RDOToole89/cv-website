@@ -5,6 +5,10 @@
   margin-bottom: 4rem;
 }
 
+.Header-title > span {
+  font-size: 2rem;
+}
+
 .Header-logo {
   color: white;
   font-size: 1.4rem;

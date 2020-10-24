@@ -39,6 +39,10 @@
   color: #000;
 }
 
+.Workcard-text {
+  font-weight: 500;
+}
+
 .Workcard-list {
   list-style-type: disc;
 }
