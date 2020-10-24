@@ -18,7 +18,7 @@ function Skills() {
           <li className="Experience-list-item">Javascript</li>
           <li className="Experience-list-item">React</li>
           <li className="Experience-list-item">Bootstrap</li>
-          <li className="Experience-list-item">Api | Ajax</li>
+          <li className="Experience-list-item">API | AJAX</li>
         </ul>
       </div>
       <div className="Experience-backend">
@@ -26,11 +26,10 @@ function Skills() {
         <h3>Back-end</h3>
         <ul className="Experience-list">
           <li className="Experience-list-item">NodeJS</li>
-          <li className="Experience-list-item">NPM</li>
           <li className="Experience-list-item">Express</li>
           <li className="Experience-list-item">SQL</li>
           <li className="Experience-list-item">Mongo</li>
-          <li className="Experience-list-item">REST Api</li>
+          <li className="Experience-list-item">REST</li>
         </ul>
       </div>
       <div className="Experience-tools">
@@ -38,10 +37,9 @@ function Skills() {
         <h3>Tools</h3>
         <ul className="Experience-list">
           <li className="Experience-list-item">VS Code</li>
-          <li className="Experience-list-item">Yarn</li>
+          <li className="Experience-list-item">NPM</li>
           <li className="Experience-list-item">Ubuntu</li>
           <li className="Experience-list-item">Github</li>
-          <li className="Experience-list-item">SSH</li>
         </ul>
       </div>
     </section>
