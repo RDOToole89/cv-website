@@ -6,6 +6,7 @@
 }
 
 .Header-logo {
+  color: green;
   font-size: 1.4rem;
   grid-column: 2 / span 2;
   justify-self: center;
@@ -21,6 +22,8 @@
 }
 
 .Header-navbar-list {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
   grid-column: 7 / span 4;
   align-self: center;
   color: white;
@@ -29,7 +32,34 @@
 }
 
 .Header-navbar-item {
+  height: 100%;
+  padding: 0.5em;
   margin-left: 1em;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.Header-link {
+  text-decoration: none;
+  color: #3fa5fb;
+}
+
+.Header-link:hover {
+  color: #3fa5fb;
+}
+
+.Header-navbar-item a {
+  padding-bottom: 0.3em;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  color: white;
+}
+.Header-navbar-item a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  color: white;
 }
 
 .Header-profile-img {
@@ -59,6 +89,10 @@
   margin-bottom: 3em;
   cursor: pointer;
   border-radius: 20px;
+}
+
+.Header-btn:hover {
+  background: whitesmoke;
 }
 
 .Header-competencies {

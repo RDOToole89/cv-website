@@ -6,6 +6,15 @@
   justify-content: center;
 }
 
+.Footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.Footer-link:hover {
+  color: #c1272d;
+}
+
 .Footer-header {
   font-size: 1.6rem;
   text-align: center;

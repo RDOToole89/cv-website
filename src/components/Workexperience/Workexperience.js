@@ -3,13 +3,13 @@ import "./Workexperience.css";
 
 function Workexperience() {
   return (
-    <section className="Workexperience">
+    <section id="Workexp" className="Workexperience">
       <div className="Workexperience-header-wrapper">
         <i class="icon fas fa-briefcase fa-3x"></i>
         <h1 className="Workexperience-header">Work Experience</h1>
       </div>
       <div className="Workcard">
-        <h4 className="Workcard-header">
+        <h4 className="Workcard-header uppercase">
           Various restaurants, Amsterdam (2003-2019) - Executive chef / Chef de Partie
         </h4>
         <p className="Workcard-text">
@@ -37,10 +37,11 @@ function Workexperience() {
         </ul>
       </div>
       <div className="Workcard">
-        <h4 className="Workcard-header">Studyflow, Amsterdam (Augustus 2016- Januari 2017)</h4>
+        <h4 className="Workcard-header uppercase">
+          Studyflow, Amsterdam (Augustus 2016- Januari 2017) - Markt entry stratagy analist
+        </h4>
         <p className="Workcard-text">
-          Markt entry stratagy analist Company specializing in digitization of the secondary
-          education market in the Netherlands.
+          Company specializing in digitization of the secondary education market in the Netherlands.
         </p>
         <ul className="Workcard-list">
           <li className="WorkCard-item">
@@ -61,8 +62,8 @@ function Workexperience() {
         </ul>
       </div>
       <div className="Workcard">
-        <h4 className="Workcard-header">
-          DealBroker, Amsterdam (Februari 2016- Juli 2016) - Marketing and Sales intern)
+        <h4 className="Workcard-header uppercase">
+          DealBroker, Amsterdam (Februari 2016- Juli 2016) - Marketing and Sales intern
         </h4>
         <p className="Workcard-text">
           Company specializing in generating extra ancillary revenues for third parties through the

@@ -4,7 +4,7 @@ import Typical from "react-typical";
 
 function Header() {
   return (
-    <div className="Header">
+    <div id="home" className="Header">
       <div className="Header-navbar">
         <div class="Header-logo">
           <h2 class="Header-logo-h2">&lt;RDO/&gt;</h2>
@@ -17,10 +17,20 @@ function Header() {
           alt="profile"
         />
         <ul className="Header-navbar-list">
-          <li className="Header-navbar-item">Home</li>
-          <li className="Header-navbar-item">About</li>
-          <li className="Header-navbar-item">Work Experience</li>
-          <li className="Header-navbar-item">Contact</li>
+          <li className="Header-navbar-item">
+            <a className="active " href="#home">
+              Home
+            </a>
+          </li>
+          <li className="Header-navbar-item">
+            <a href="#about">About</a>
+          </li>
+          <li className="Header-navbar-item">
+            <a href="#Workexp">Work</a>
+          </li>
+          <li className="Header-navbar-item">
+            <a href="#Contact-me">Contact</a>
+          </li>
         </ul>
       </div>
 
@@ -28,12 +38,29 @@ function Header() {
         <h1 className="Header-title">
           Hi, I'm Roibin.
           <Typical
-            steps={["I", 1000, "I am a developer.", 1000, "I solve problems.", 1000]}
+            steps={[
+              "I",
+              800,
+              "I am a developer.",
+              800,
+              "I love to code.",
+              800,
+              "I solve problems.",
+              800,
+              "I am a fast learner.",
+              800,
+              "I am a hard worker.",
+              800,
+            ]}
             loop={Infinity}
             wrapper="p"
           />
         </h1>
-        <button className="Header-btn btn">Get in touch</button>
+        <button className="Header-btn btn">
+          <a className="Header-link" href="https://www.linkedin.com/">
+            Get in touch
+          </a>
+        </button>
         <div className="icon-box">
           <i className="fab fa-facebook fa-2x"></i>
           <i className="fab fa-instagram fa-2x"></i>

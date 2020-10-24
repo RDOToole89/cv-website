@@ -5,9 +5,21 @@
   background: #cce7fe;
 }
 
-.Contact-heading {
+.Contact-header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 3 / span 2;
-  justify-self: center;
+  margin-bottom: 1.5em;
+}
+
+.icon {
+  position: relative;
+  margin-right: 10px;
+}
+
+.Contact-header {
+  font-size: 2rem;
 }
 
 .Contact-form {

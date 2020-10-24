@@ -3,13 +3,11 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <section className="Contact">
-      <h2 class="Contact-heading">
-        <span class="icon">
-          <i class="fas fa-envelope"></i>
-        </span>
-        Lets get in touch...
-      </h2>
+    <section id="Contact-me" className="Contact">
+      <div className="Contact-header-wrapper">
+        <i class="icon fas fa-envelope fa-3x"></i>
+        <h1 className="Contact-header">Let's get in touch...</h1>
+      </div>
       <form class="Contact-form" action="/" method="POST">
         <label for="name">Full Name:</label>
         <input class="Contact-form-input" type="text" id="name" name="fullName" />

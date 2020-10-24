@@ -1,7 +1,7 @@
 .Workexperience {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  padding: 2em 0 2em 0;
+  padding: 4em 0 2em 0;
 }
 
 .Workexperience-header-wrapper {
@@ -27,6 +27,12 @@
   background: rgba(193, 39, 45, 1);
   grid-column: 3 / span 4;
   margin-bottom: 6em;
+  transform: scale(1);
+  transition: all 200ms ease-in;
+}
+
+.Workcard:hover {
+  transform: scale(1.05);
 }
 
 .Workcard-header {
